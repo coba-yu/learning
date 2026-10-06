@@ -1,7 +1,7 @@
 import pickle
-import re
 from collections import defaultdict
 
+import regex as re
 from tqdm import tqdm
 
 BASE_VOCAB_SIZE = 256
