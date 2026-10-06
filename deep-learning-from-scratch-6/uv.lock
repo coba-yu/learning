@@ -168,6 +168,7 @@ name = "codebot"
 version = "0.1.0"
 source = { editable = "codebot" }
 dependencies = [
+    { name = "numpy" },
     { name = "regex" },
     { name = "torch" },
     { name = "tqdm" },
@@ -175,6 +176,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "numpy", specifier = ">=2.1.0" },
     { name = "regex", specifier = ">=2023.0.0" },
     { name = "torch", specifier = ">=2.5.0" },
     { name = "tqdm", specifier = ">=4.65.0" },
