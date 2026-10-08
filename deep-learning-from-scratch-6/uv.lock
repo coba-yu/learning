@@ -168,6 +168,7 @@ name = "codebot"
 version = "0.1.0"
 source = { editable = "codebot" }
 dependencies = [
+    { name = "matplotlib" },
     { name = "numpy" },
     { name = "regex" },
     { name = "torch" },
@@ -176,6 +177,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "numpy", specifier = ">=2.1.0" },
     { name = "regex", specifier = ">=2023.0.0" },
     { name = "torch", specifier = ">=2.5.0" },
