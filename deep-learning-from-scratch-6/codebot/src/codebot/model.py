@@ -223,4 +223,5 @@ class GPT(nn.Module):
         )
 
         model.load_state_dict(checkpoint["model_state_dict"])
+        model.to(device)
         return model
