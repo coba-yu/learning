@@ -8,8 +8,11 @@ def format_prompt(user_message: str) -> str:
 
 
 if __name__ == "__main__":
-    model_path = "models/model_sft.pt"
+    # model_path = "models/model_sft.pt"
+    model_path = "models/model_grpo.pt"
+
     tokenizer_path = "data/tiny_codes.pkl"
+    
     max_new_tokens = 200
     temperature = 1.0
 
